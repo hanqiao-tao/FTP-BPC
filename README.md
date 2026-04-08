@@ -4,7 +4,8 @@ This repository includes the test instances, source codes, and computational res
 If you encounter any issues or have questions, please feel free to contact taohanqiao19@nudt.edu.cn.
 
 ## Instances
-All test instances used in this work are stored in the "Instances" folder, with the directory structure detailed as follows
+All test instances used in this work are stored in the "Instances" folder, with the directory structure detailed as follows.
+
 '''
 Instances/                      # Full set of test instances
 ├── Classical dataset/          # Classical benchmark dataset for the simple assembly line balancing problem of type 1 (SALBP-1) from https://assembly-line-balancing.de/
@@ -29,8 +30,7 @@ Instances/                      # Full set of test instances
     │   └── S_110_3_1.txt to S_200_3_1.txt
     ├── Sensitivity_r/          # Compatible relationships for sensitivity analysis on the versatility level
     │   └── S_100_3_1.txt to S_100_3_10.txt
-    └── S_100_1_1.txt to S_100_4_1.txt  
-                                # Compatible relationships for the main experiments
+    └── S_100_1_1.txt to S_100_4_1.txt  # Compatible relationships for the main experiments
 '''
 
 ## Algorithm
