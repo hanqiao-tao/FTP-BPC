@@ -42,8 +42,8 @@ This repository implements a branch-price-and-cut (BPC) algorithm for exactly so
 - This code has the following required dependencies:
   - **Boost ≥ 1.80.0**   (https://www.boost.org/)
   - **xxHash**           (https://github.com/Cyan4973/xxHash)
-- We gratefully acknowledge Prof. Jordi Pereira for kindly sharing the source code developed in his work [5], which supported the development of this implementation.
-- We adopt the combo algorithm proposed in [6] for solving 0-1 knapsack problem in the separation procedure.
+- We gratefully acknowledge Prof. Jordi Pereira for kindly sharing the source code developed in his work [5], which served as a valuable reference for our algorithm implementation.
+- We directly use the combo algorithm proposed in [6] for solving 0-1 knapsack problem in the separation procedure.
 
 ## Computational Results
 Full computational results for all test instances are documented in the Excel file "FTP results.xlsx".
