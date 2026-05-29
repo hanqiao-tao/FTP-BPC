@@ -37,7 +37,7 @@ Instances/                      # Full set of test instances
 ## Algorithm
 This repository implements a branch-price-and-cut (BPC) algorithm for exactly solving the FTP.
 
-- The algorithm is implemented in C++ and executed in single-threaded mode. The full source code will be publicly released after the first round of peer review.
+- The algorithm is implemented in C++ and executed in single-threaded mode.
 - All mixed-integer programming (MIP) formulations in this work are solved using the Cardinal Optimizer (COPT) 7.2.11 [4] via its C++ API. The solver is configured to run in single-threaded mode, with all other parameters set to their default values.
 - This code has the following required dependencies:
   - **Boost ≥ 1.80.0**   (https://www.boost.org/)
